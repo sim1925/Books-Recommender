@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar {
+    background-image: linear-gradient(to right, deepSkyBlue, #1a4c8d);
+    padding: 10px !important;
+  }
+  
+  .plannerlogo {
+    padding-left: 40px;
+  }
+  
+  .container-fluid img {
+    transition: 0.5s;
+  }
+  
+  .container-fluid a:hover img {
+    transform: translateY(-10px);
+  }
+  
+  .navbar-brand {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: 700;
+    padding-left: 15px;
+    color: darkslateblue !important;
+    font-size: 34px !important;
+    text-shadow: 3px 3px 3px white;
+  }
+  
+  .logo {
+    height: 45px;
+  }
+  
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+  
+  
+  .navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left !important;
+  }
+  
+  .fa-bars {
+    color: white;
+    font-size: 30px !important;
+  }
+  
+  .navbar-toggler {
+    outline: none !important;
+  }
